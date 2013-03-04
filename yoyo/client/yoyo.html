@@ -1,0 +1,451 @@
+<head>
+    <meta http-equiv="Content-Type">
+    <title>YOYO</title>
+    <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js" type="text/javascript"></script>
+    <link href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    {{> main_container}}
+    {{> footer}}
+</body>
+
+<template name="main_container">
+    <div id="main">
+        <a class="up" href="#"><img src="../images/up.png" alt="up" /></a>
+       {{> header}}
+       {{> page_1}}
+       {{> page_2}}
+       {{> page_3}}
+       {{> page_4}}
+       {{> page_5}}
+       {{> page_6}}
+    </div>
+</template>
+
+<template name="header">
+    <div id="header">
+        <img id="logo" src="../images/mainpage_01/logo.png" alt="logo" />
+        <form class="form-search">
+            <i class="icon-search icon-white"></i>
+            <input id="searchInput" class="search-query input-small" type="text" size="10" maxlength="40" height="20px" placeholder="站内搜索"/>
+        </form>
+        <span class="helpcenter">
+            <a href="#helpcenter-modal" data-toggle="modal">帮助中心</a>
+        </span>
+        <span class="aboutus">
+            <a href="#aboutus-modal" data-toggle="modal">关于我们</a>
+        </span>
+    </div>
+    {{> helpcenter}}
+    {{> aboutus}}
+</template>
+
+<template name="page_1">
+    <div id="page_1" class="container">
+        <img id="bobiHead" src="../images/mainpage_01/bobi_head.png" alt="bobi_head" />
+        <img id="friends" src="../images/mainpage_01/friends.png" alt="friends" />
+    <div id="page1-text">
+        <span>我的朋友，我的世界！</span><br/>
+        <span id="relation">一起成长的关系</span>
+    </div>
+        <a href="#download-modal" data-toggle="modal"><img id="downloadButton" src="../images/mainpage_01/download_button.png" alt="downloadButton" /></a>
+        <p>我的私人通讯管家<br/>
+            立即体验！</p>
+    </div>
+    {{> downloadpage}}
+</template>
+
+<template name="page_2" >
+    <div id="page_2"  class="container">
+        <img id="phone" src="../images/mainpage_02/phone.png" alt="phone" />
+        <div>
+            <span>智能整理同类号码</span>
+            <hr/>
+            <p>为什么我的通讯录里面会有15个伯冰的电话？联通的，<br/>
+               移动的，小灵通的，短号，等等。YoYo帮你智能管理<br/>
+               联系人信息。把重复的联系人信息合并成一个。
+            </p>
+        </div>
+        <img id="nameCard" src="../images/mainpage_02/name_card.png" alt="name_card" />
+    </div>
+</template>
+
+<template name="page_3" >
+    <div id="page_3"  class="container">
+        <div>
+            <span>会生长的头像</span>
+            <hr/>
+            <p>
+                YoYo系统内置跟随成长的兔儿头像。<br/><br/>
+
+                兔儿的耳朵会跟随接听电话的时间累计越来越多，而变<br/>
+                得越来越大。兔儿的嘴巴则跟随拨出电话的时间累计而<br/>
+                变大。
+            </p>
+        </div>
+        <img id="rabbit" src="../images/mainpage_03/rabbit.png" alt="rabbit" />
+        <img id="rabbitHead" src="../images/mainpage_03/rabbit_head.png" alt="rabbit_head" />
+    </div>
+</template>
+
+<template name="page_4">
+    <div id="page_4"  class="container">
+        <img id="girlfriend" src="../images/mainpage_04/girlfriend.png" alt="girlfriend" />
+        <img id="people" src="../images/mainpage_04/people.png" alt="people" />
+        <img id="type_01" src="../images/mainpage_04/type.png" alt="type1" />
+
+        <div>
+            <span>置顶6大常用联系人</span>
+            <hr/>
+            <p>
+                虽然我们的通讯录里面有很多很多朋友的电话，但是日<br/>
+                常联络的无外乎就是，女朋友，爸妈，闺蜜们。<br/>
+                YoYo将根据您的使用习惯推送与您最亲密的联系人。<br/>
+                还在使用历史查询拨号么？out啦！
+            </p>
+        </div>
+    </div>
+</template>
+
+<template name="page_5">
+    <div id="page_5"  class="container">
+        <div>
+            <span>极速发短信，打电话</span>
+            <hr/>
+            <p>
+                有没有想过我们日常打一个电话出去要点击多少下呢？<br/>
+                至少6下。YoYo提供 Hold住一秒极速打电话，发短信<br/>
+                功能将为我们节省不必要的5下点击。时间就是金钱马<br/>
+                上体验YoYo的极速去电吧！
+            </p>
+        </div>
+        <img id="callout" src="../images/mainpage_05/callout.png" alt="callout" />
+        <img id="type_02" src="../images/mainpage_05/type.png" alt="type2" />
+    </div>
+</template>
+
+<template name="page_6">
+    <div id="page_6"  class="container">
+        <img id="socialMedia" src="../images/mainpage_06/social_media.png" alt="social_media" />
+        <img id="weibo" src="../images/mainpage_06/weibo.png" alt="weibo" />
+        <div>
+            <span>同步获取SNS更新</span>
+            <hr/>
+            <p>
+                有没有想过我们每天拿起手机，第一件事情就是浏览邮<br/>
+                箱，上QQ上weibo，微信，facebook，twitter等等。<br/>
+                在YoYo上面，自动推送各大IM的更新，让大家可以省<br/>
+                去”挂“IM的麻烦，更方便沟通。
+            </p>
+        </div>
+    </div>
+</template>
+
+<template name = "footer">
+    <div id="footer">
+            <ul class="direction">
+                <li>
+                    <ul class="aboutyoyo">
+                        <li class="title">关于YoYo</li>
+                        <li>
+                            YoYo是一款智能通讯录，不仅可以帮助我们快速地<br/>
+                            查找联系人，并且帮助我们更好地维系朋友之间的<br/>
+                            关系。
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li class="title">用户指南</li>
+                        <li><a href="#aboutus-modal" data-toggle="modal">关于我们</a></li>
+                        <li><a href="#privacy-modal" data-toggle="modal">隐私条款</a></li>
+                        <li><a href="#helpcenter-modal" data-toggle="modal">帮助中心</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li class="title">客服中心</li>
+                        <li><a href="#privacy-modal" data-toggle="modal">联系我们</a></li>
+                        <li><a href="#">人人网</a></li>
+                        <li><a href="#">新浪微博</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li class="title">下载链接</li>
+                        <li><a href="#download-modal" data-toggle="modal">iphone</a></li>
+                        <li><a href="#download-modal" data-toggle="modal">Android</a></li>
+                        <li><a href="#download-modal" data-toggle="modal">Windows Phone</a></li>
+                    </ul>
+                </li>
+            </ul>
+    </div>
+    {{> privacy}}
+</template>
+
+<template name="list-modal">
+        <div class="accordion-group none-border">
+            <div class="accordion-heading">
+                <a data-toggle="collapse" href="#{{id}}">
+                    <i class="icon-chevron-right"></i>
+                    {{value}}
+                </a>
+            </div>
+            <div id="{{id}}" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    {{ans}}
+                </div>
+            </div>
+        </div>
+</template>
+
+<template name="helpcenter">
+    <div id="helpcenter-modal" class="modal hide fade" role="helpcenter" aria-hidden="true">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+        <div class="modal-header">
+            <div class="title"><span class="subpage-header">帮助中心</span>/<span class="subpage-en-header">Help Center</span></div>
+            <p>
+            YoYo目前还很年轻，我们很希望在大家的帮助下成长为更完美，服务更完善的管家。因此，大家如果在使用的时候遇到任何疑问，都
+            欢迎随时<a href="#helpcenter-contactus" data-toggle="collapse" >联系我们</a>。
+                {{> helpcenter-contactus}}
+            </p>
+        </div>
+
+        <div class="modal-body">
+            <ul class="subpage-tab nav nav-tabs">
+                <li>
+                    <a href="#" class="brand phone-choose">iphone</a>
+                </li>
+                <li>
+                    <a href="#" class="brand">Android</a>
+                </li>
+                <li>
+                    <a href="#" class="brand">Windows phone</a>
+                </li>
+            </ul>
+            <div>
+                <h6>常见问题</h6>
+            <ul class="accordion" id="freqQuestion">
+                {{#each frequestions}}
+                    <li>{{> list-modal}}</li>
+                {{/each}}
+            </ul>
+            </div>
+            <div>
+                <h6>基本的使用方法</h6>
+                <ul id="basic-use-method">
+                    {{#each using_methods}}
+                    <li>{{> list-modal}}</li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+        <div class="my-modal-footer">
+            <h6>发生问题</h6>
+            <p>
+                如果发生了上述“常见问题”以外的问题，欢迎随时<a href="#helpcenter-contactus" data-toggle="collapse" >联系我们</a>，我们将第一时间联络你并为你提供解决方法。
+            </p>
+        </div>
+    </div>
+</template>
+
+<template name="aboutus">
+    <div id="aboutus-modal" class="modal hide fade" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+            <span class="subpage-header">关于我们 </span>/ <span class="subpage-en-header">About Us</span>
+        </div>
+        <div class="modal-body">
+            <img src="../images/mainpage_01/aboutus/logo_icon.png" alt="logo-icon">
+            <p>YoYo是广州美术学院与中山大学一同研发的新的通讯录软件。</p>
+            <p>YoYo是目前最快的，最简单，最私人的通讯录应用程序，可应用在您喜欢的手机和网络上的。同时YoYo是一个功能强大的通讯录管家。不像facebook
+                是一个半封闭的交友群体。YoYo所管理的是一个封闭的生活群体，在YoYo里面，不会受到陌生人的干扰。</p>
+            <p>YoYo一直陪伴我们成长。</p>
+        </div>
+        <div class="modal-header">
+            <span class="subpage-header">我们的使命 </span>/ Mission
+        </div>
+        <div class="modal-body">
+            <p>
+                生活中，我们每天都在变化，成长，即便我们能牢牢记得彼此最快乐的瞬间，我们却没有办法避免丢失彼此的联络方式。一个小小的变动，可能很多年
+            后，我们就这样悄悄地失去联络。“当我想起你的时候，我们还能保持联络，就好了...”也许，在我们拥有时光机可以自由穿越之前，我们应该好好地
+            学会如何珍惜我们的关系。
+            </p>
+            <p>YoYo，让我们一直保持联络。</p>
+        </div>
+        <div class="modal-header">
+            <span class="subpage-header">核心成员 </span>/ Core Memeber
+        </div>
+        <div class="modal-body">
+            <ul>
+                <li class="li-inline core-member">
+                    <span class="founder-name">向帆</span> FanXiang
+                </li>
+                <li class="li-inline core-member">
+                    <span class="founder-name">王青</span> QingWang
+                </li> <br/>
+                <li class="li-inline core-member">
+                    <span class="member">创立者/Founder</span>
+                </li>
+                <li class="li-inline core-member">
+                    <span class="member">创立者/Founder</span>
+                </li>
+                <li class="core-member">
+                    广州美学院视觉与动漫设计学院 VMD <br/>
+                    <span class="member">设计师团队/Designer Team</span>
+                </li>
+                <li class="core-member">
+                    中山大学软件学院 School of Software, Sun Yat-sen University<br/>
+                    <span class="member">软件工程师团队/Software Engineer Team</span>
+                </li>
+            </ul>
+        </div>
+        <div class="modal-header">
+            <ul>
+                <li class="li-inline"><span class="subpage-header">公司地址 </span>/ Address</li>
+                <li class="li-inline"><span class="subpage-header">联系我们 </span>/ Connect Us</li>
+            </ul>
+        </div>
+        <div class="modal-body">
+            <img src="../images/mainpage_01/aboutus/location_icon.png" alt="location_icon">
+                <div name="address">
+                    <address>深圳市福田区<br/>
+                    友讯网络信息技术有限公司</address>
+                </div>
+                <div name="phone">
+                    <span>如有任何疑问和建议请跟我们保持联络，您可以通过以下方式联络我们。<br/>
+                    电话：0755-22938103</span>
+                </div>
+        </div>
+    </div>
+</template>
+
+<template name="downloadpage">
+    <div id="download-modal" class="modal hide fade" aria-hidden="true">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+        <ul>
+            <li class="mobile-phone"><input type="image" src="../images/mainpage_01/download/iphone.png" alt="iphone"></li>
+            <li class="mobile-phone"><input type="image" src="../images/mainpage_01/download/windows.png" alt="windows"></li>
+            <li class="mobile-phone"><input type="image" src="../images/mainpage_01/download/Android.png" alt="android"></li>
+        </ul>
+    </div>
+</template>
+
+<template name="privacy">
+    <div id="privacy-modal" class="modal hide fade" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+            <span class="subpage-header">隐私条款 </span>/ <span class="subpage-en-header">Privacy</span>
+        </div>
+        <div class="modal-body">
+            <div class="explanation">
+            你的隐私对 YoYo 而言至关重要。因此，我们制定了一项隐私政策，其中说明了我们如何收集、使用、披露、转让和存储你的信息。请
+            您仔细阅读我们的隐私政策，如有任何问题，请<a href="#privacy-contactus" data-toggle="collapse" >联系我们</a>。
+                {{> privacy-contactus}}
+            </div>
+            <div class="privacy-part">
+                <h5>我们收集何种个人信息：</h5>
+                <ul>
+                    <li>
+                    当你创建一个 YoYo 帐号、登记你使用该产品、下载软件更新、在 YoYo 官方网站注册或者在线调查时，我们会收集各种信息，包括你的姓名、邮寄地址、电话
+                    号码电子邮件地址、联系方式偏好的信息。
+                    </li>
+                    <li>
+                    当你使用 YoYo产品与家人和朋友分享你的内容、发送礼券和产品或者在 YoYo 论坛上邀请其他人时，YoYo会收集你提供的与上述人士有关的信息，如姓名、邮
+                    寄地址、电子邮件地址及电话号码。
+                    </li>
+                    <li>
+                    在美国，我们会要求你提供社会保险号码 (SSN)，但仅限于开设无线帐号、激活你的 iPhone 或者确定是否向你提供商业信贷等为数不多的情形中。
+                    </li>
+                </ul>
+            </div>
+            <div class="privacy-part">
+                <h5>我们如何使用你的个人信息：</h5>
+                <ul>
+                    <li>
+                    我们收集的个人信息让我们可以将 Apple 的最新产品发布、软件更新及活动预告及时通知你。这些信息还有助于我们改进我们的服务、内容和广告宣传。如果你不
+                    希望被列入我们的发送名单中，你可在任何时候通过更新你的设置选择退出。
+                    </li>
+                    <li>
+                    我们还使用个人信息以帮助我们开发、交付和改进我们的产品、服务、内容和广告宣传。
+                    </li>
+                    <li>
+                    我们会不时地使用你的个人信息以发送重要通知，如关于购买以及我们的条款、条件和政策变更的通讯。由于此信息对你与 Apple 之间的互动至关重要，你不能放
+                    弃接收此类沟通信息。
+                    </li>
+                    <li>
+                    我们还会将个人信息用于审计、数据分析和研究等内部目的，以改进 Apple 的产品、服务和与客户之间的沟通。
+                    如果你参与抽奖、竞赛或类似推广活动，我们会将你提供的信息用于管理此类活动。
+                    </li>
+                </ul>
+            </div>
+            <div class="privacy-part">
+                <h5>向第三方披露：</h5>
+                <ul>
+                    <li>
+                    有时候 Apple 会向与 Apple 合作提供产品和服务或者帮助 Apple 向客户进行营销的战略合作伙伴提供某些个人信息。例如，当你购买并激活你的 iPhone 时，
+                    你即授权 Apple 及其运营商交流你在激活过程中提供的信息，以便我们提供服务。如果你获准使用服务，你的帐号将适用 Apple 及其运营商各自的隐私政策。
+                    Apple 只会为提供或改进我们的产品、服务和广告宣传之目的而与第三方共享个人信息；而不会为第三方的营销目的与第三方共享个人信息。
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</template>
+
+<template name="helpcenter-contactus">
+    <div id="helpcenter-contactus" class="accordion-body collapse">
+        <div class="accordion-inner">
+            <form action="javascript:void(0)">
+                <fieldset>
+                <ul class="table-left">
+                    <li><label>你的昵称：</label></li>
+                    <li><label>邮箱地址：</label></li>
+                    <li><label>你的疑问：</label></li>
+                </ul>
+                <ul class="table-right">
+                    <li>
+                        <input type="text" name="nickname" class="input-radius">
+                    </li>
+                    <li>
+                        <input type="text" name="email" class="input-radius">
+                    </li>
+                    <li>
+                        <textarea rows="5" name="question"></textarea>
+                    </li>
+                </ul>
+                <input type="image" src="../images/mainpage_01/helpcenter/send.png">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</template>
+
+
+<template name="privacy-contactus">
+    <div id="privacy-contactus" class="accordion-body collapse">
+        <div class="accordion-inner">
+            <form action="javascript:void(0)">
+                <fieldset>
+                <ul class="table-left">
+                    <li><label>你的昵称：</label></li>
+                    <li><label>邮箱地址：</label></li>
+                    <li> <label>你的疑问：</label></li>
+                </ul>
+                <ul class="table-right">
+                    <li>
+                        <input type="text" name="nickname" class="input-radius">
+                    </li>
+                    <li>
+                        <input type="text" name="email" class="input-radius">
+                    </li>
+                    <li>
+                        <textarea rows="5" name="question"></textarea>
+                    </li>
+                </ul>
+                <input type="image" src="../images/mainpage_01/helpcenter/send.png">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</template>
