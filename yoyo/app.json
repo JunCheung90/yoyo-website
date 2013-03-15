@@ -32,6 +32,7 @@
     "app/packages/mongo-livedata/remote_collection_driver.js",
     "app/packages/mongo-livedata/collection.js",
     "app/packages/startup/startup_server.js",
+<<<<<<< HEAD
     "app/packages/past/past.js",
     "app/packages/accounts-urls/url_server.js",
     "app/packages/accounts-base/accounts_common.js",
@@ -64,6 +65,28 @@
       "url": "/2349233638c4b395281816bc726bb4ca4e6abb98.css",
       "size": 158051,
       "hash": "2349233638c4b395281816bc726bb4ca4e6abb98"
+=======
+    "app/packages/past/past.js"
+  ],
+  "manifest": [
+    {
+      "path": "static_cacheable/0f781dcb6afcab6a0b023252c6620bafcd2acb6e.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/0f781dcb6afcab6a0b023252c6620bafcd2acb6e.js",
+      "size": 311880,
+      "hash": "0f781dcb6afcab6a0b023252c6620bafcd2acb6e"
+    },
+    {
+      "path": "static_cacheable/46be4ebd09385e6c68362f5af1e82aadf649fa13.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/46be4ebd09385e6c68362f5af1e82aadf649fa13.css",
+      "size": 132270,
+      "hash": "46be4ebd09385e6c68362f5af1e82aadf649fa13"
+>>>>>>> 422019fa17c3e0f3860f10839b283b131f1a29c8
     },
     {
       "path": "static/images/mainpage_03/._rabbit_head.png",
