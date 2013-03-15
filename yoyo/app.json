@@ -9,8 +9,6 @@
     "app/packages/meteor/url_server.js",
     "app/packages/meteor/url_common.js",
     "app/packages/deps/deps.js",
-    "app/packages/deps/deps-utils.js",
-    "app/packages/session/session.js",
     "app/packages/logging/logging.js",
     "app/packages/random/random.js",
     "app/packages/json/json2.js",
@@ -45,31 +43,32 @@
     "app/packages/accounts-password/email_templates.js",
     "app/packages/accounts-password/password_server.js",
     "app/packages/accounts-password/password_common.js",
-    "app/server/server.coffee.js"
+    "app/packages/appcache/appcache-server.js",
+    "app/static.coffee.js"
   ],
   "manifest": [
     {
-      "path": "static_cacheable/78cbe73d361bdabf173807faef97ea0a61a250d6.js",
+      "path": "static_cacheable/943c3df9b061b94cf82134280312bd657c7951a7.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/78cbe73d361bdabf173807faef97ea0a61a250d6.js",
-      "size": 571363,
-      "hash": "78cbe73d361bdabf173807faef97ea0a61a250d6"
+      "url": "/943c3df9b061b94cf82134280312bd657c7951a7.js",
+      "size": 573885,
+      "hash": "943c3df9b061b94cf82134280312bd657c7951a7"
     },
     {
-      "path": "static_cacheable/026430512edd1cee29f8233f790a60fd7d369366.css",
+      "path": "static_cacheable/2349233638c4b395281816bc726bb4ca4e6abb98.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/026430512edd1cee29f8233f790a60fd7d369366.css",
-      "size": 157927,
-      "hash": "026430512edd1cee29f8233f790a60fd7d369366"
+      "url": "/2349233638c4b395281816bc726bb4ca4e6abb98.css",
+      "size": 158051,
+      "hash": "2349233638c4b395281816bc726bb4ca4e6abb98"
     },
     {
       "path": "static/images/mainpage_03/._rabbit_head.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_03/._rabbit_head.png",
       "size": 4096,
@@ -77,8 +76,8 @@
     },
     {
       "path": "static/images/mainpage_03/rabbit.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_03/rabbit.png",
       "size": 617808,
@@ -86,8 +85,8 @@
     },
     {
       "path": "static/images/mainpage_03/._rabbit.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_03/._rabbit.png",
       "size": 4096,
@@ -95,8 +94,8 @@
     },
     {
       "path": "static/images/mainpage_03/rabbit_head.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_03/rabbit_head.png",
       "size": 10650,
@@ -104,8 +103,8 @@
     },
     {
       "path": "static/images/mainpage_03/._.DS_Store",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_03/._.DS_Store",
       "size": 4096,
@@ -113,8 +112,8 @@
     },
     {
       "path": "static/images/mainpage_05/._type.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_05/._type.png",
       "size": 4096,
@@ -122,8 +121,8 @@
     },
     {
       "path": "static/images/mainpage_05/callout.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_05/callout.png",
       "size": 435355,
@@ -131,8 +130,8 @@
     },
     {
       "path": "static/images/mainpage_05/._callout.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_05/._callout.png",
       "size": 4096,
@@ -140,8 +139,8 @@
     },
     {
       "path": "static/images/mainpage_05/type.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_05/type.png",
       "size": 5394,
@@ -149,26 +148,17 @@
     },
     {
       "path": "static/images/mainpage_05/._.DS_Store",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_05/._.DS_Store",
       "size": 4096,
       "hash": "2452430e8782abd83462c2a2a4ef2dbfbf2ca4e9"
     },
     {
-      "path": "static/images/mainpage_01/Android.png",
-      "type": "static",
-      "where": "client",
-      "cacheable": false,
-      "url": "/images/mainpage_01/Android.png",
-      "size": 4284,
-      "hash": "ef5e3f701d59a219967b7f684135238b9ecc8e9b"
-    },
-    {
       "path": "static/images/mainpage_01/logo.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_01/logo.png",
       "size": 5288,
@@ -176,35 +166,17 @@
     },
     {
       "path": "static/images/mainpage_01/._logo.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_01/._logo.png",
       "size": 4096,
       "hash": "c86d91c94168c8ae85ee43638998c9b521b0782f"
     },
     {
-      "path": "static/images/mainpage_01/windows.png",
-      "type": "static",
-      "where": "client",
-      "cacheable": false,
-      "url": "/images/mainpage_01/windows.png",
-      "size": 4591,
-      "hash": "0d2b585d4b6324a1b7b692a2dd504217d9aabe28"
-    },
-    {
-      "path": "static/images/mainpage_01/helpcenter/send.png",
-      "type": "static",
-      "where": "client",
-      "cacheable": false,
-      "url": "/images/mainpage_01/helpcenter/send.png",
-      "size": 2883,
-      "hash": "ac5472d7c9bd659057e409469d8a7fd55fd5f4ee"
-    },
-    {
       "path": "static/images/mainpage_01/._bobi_head.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_01/._bobi_head.png",
       "size": 4096,
@@ -212,8 +184,8 @@
     },
     {
       "path": "static/images/mainpage_01/aboutus/logo_icon.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_01/aboutus/logo_icon.png",
       "size": 6550,
@@ -221,8 +193,8 @@
     },
     {
       "path": "static/images/mainpage_01/aboutus/location_icon.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_01/aboutus/location_icon.png",
       "size": 1548,
@@ -230,8 +202,8 @@
     },
     {
       "path": "static/images/mainpage_01/download_button.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_01/download_button.png",
       "size": 8471,
@@ -239,8 +211,8 @@
     },
     {
       "path": "static/images/mainpage_01/friends.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_01/friends.png",
       "size": 407850,
@@ -248,8 +220,8 @@
     },
     {
       "path": "static/images/mainpage_01/._search.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_01/._search.png",
       "size": 4096,
@@ -257,26 +229,17 @@
     },
     {
       "path": "static/images/mainpage_01/bobi_head.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_01/bobi_head.png",
       "size": 34838,
       "hash": "481eb8b92c8124f1a62d841f49d3b12a43d9d6f3"
     },
     {
-      "path": "static/images/mainpage_01/iphone.png",
-      "type": "static",
-      "where": "client",
-      "cacheable": false,
-      "url": "/images/mainpage_01/iphone.png",
-      "size": 4025,
-      "hash": "f39b16589f09f55f482d6ee7ca07d4342cdb8ce0"
-    },
-    {
       "path": "static/images/mainpage_01/._.DS_Store",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_01/._.DS_Store",
       "size": 4096,
@@ -284,8 +247,8 @@
     },
     {
       "path": "static/images/mainpage_01/._friends.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_01/._friends.png",
       "size": 4096,
@@ -293,8 +256,8 @@
     },
     {
       "path": "static/images/mainpage_01/download/Android.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_01/download/Android.png",
       "size": 4284,
@@ -302,8 +265,8 @@
     },
     {
       "path": "static/images/mainpage_01/download/download.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_01/download/download.png",
       "size": 113210,
@@ -311,8 +274,8 @@
     },
     {
       "path": "static/images/mainpage_01/download/windows.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_01/download/windows.png",
       "size": 4591,
@@ -320,8 +283,8 @@
     },
     {
       "path": "static/images/mainpage_01/download/iphone.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_01/download/iphone.png",
       "size": 4025,
@@ -329,26 +292,17 @@
     },
     {
       "path": "static/images/mainpage_01/._download_button.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_01/._download_button.png",
       "size": 4096,
       "hash": "c86d91c94168c8ae85ee43638998c9b521b0782f"
     },
     {
-      "path": "static/images/mainpage_01/search.png",
-      "type": "static",
-      "where": "client",
-      "cacheable": false,
-      "url": "/images/mainpage_01/search.png",
-      "size": 2554,
-      "hash": "e7f5c6061be3739954cac100c5631626916e0b25"
-    },
-    {
       "path": "static/images/mainpage_02/name_card.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_02/name_card.png",
       "size": 167887,
@@ -356,8 +310,8 @@
     },
     {
       "path": "static/images/mainpage_02/._phone.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_02/._phone.png",
       "size": 4096,
@@ -365,8 +319,8 @@
     },
     {
       "path": "static/images/mainpage_02/._name_card.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_02/._name_card.png",
       "size": 4096,
@@ -374,8 +328,8 @@
     },
     {
       "path": "static/images/mainpage_02/phone.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_02/phone.png",
       "size": 533365,
@@ -383,26 +337,17 @@
     },
     {
       "path": "static/images/mainpage_02/._.DS_Store",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_02/._.DS_Store",
       "size": 4096,
       "hash": "2452430e8782abd83462c2a2a4ef2dbfbf2ca4e9"
     },
     {
-      "path": "static/images/background_.jpg",
-      "type": "static",
-      "where": "client",
-      "cacheable": false,
-      "url": "/images/background_.jpg",
-      "size": 1965060,
-      "hash": "d194af3d291817ec66ae39bb2daa49533d558b5a"
-    },
-    {
       "path": "static/images/up.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/up.png",
       "size": 1698,
@@ -410,8 +355,8 @@
     },
     {
       "path": "static/images/mainpage_04/._type.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_04/._type.png",
       "size": 4096,
@@ -419,8 +364,8 @@
     },
     {
       "path": "static/images/mainpage_04/people.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_04/people.png",
       "size": 180683,
@@ -428,8 +373,8 @@
     },
     {
       "path": "static/images/mainpage_04/._girlfriend.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_04/._girlfriend.png",
       "size": 4096,
@@ -437,8 +382,8 @@
     },
     {
       "path": "static/images/mainpage_04/._people.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_04/._people.png",
       "size": 4096,
@@ -446,8 +391,8 @@
     },
     {
       "path": "static/images/mainpage_04/type.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_04/type.png",
       "size": 7553,
@@ -455,8 +400,8 @@
     },
     {
       "path": "static/images/mainpage_04/._.DS_Store",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_04/._.DS_Store",
       "size": 4096,
@@ -464,8 +409,8 @@
     },
     {
       "path": "static/images/mainpage_04/girlfriend.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_04/girlfriend.png",
       "size": 36520,
@@ -473,8 +418,8 @@
     },
     {
       "path": "static/images/dot.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/dot.png",
       "size": 1188,
@@ -482,8 +427,8 @@
     },
     {
       "path": "static/images/mainpage_06/weibo.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_06/weibo.png",
       "size": 23355,
@@ -491,8 +436,8 @@
     },
     {
       "path": "static/images/mainpage_06/._weibo.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_06/._weibo.png",
       "size": 4096,
@@ -500,8 +445,8 @@
     },
     {
       "path": "static/images/mainpage_06/social_media.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_06/social_media.png",
       "size": 248334,
@@ -509,8 +454,8 @@
     },
     {
       "path": "static/images/mainpage_06/._social_media.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_06/._social_media.png",
       "size": 4096,
@@ -518,17 +463,26 @@
     },
     {
       "path": "static/images/mainpage_06/._.DS_Store",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_06/._.DS_Store",
       "size": 4096,
       "hash": "2452430e8782abd83462c2a2a4ef2dbfbf2ca4e9"
     },
     {
-      "path": "static/images/down.png",
-      "type": "static",
+      "path": "static/images/background.jpg",
       "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/background.jpg",
+      "size": 342261,
+      "hash": "3c4f4a82ad5a3fd0f5211ec23be297f7354e7475"
+    },
+    {
+      "path": "static/images/down.png",
+      "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/down.png",
       "size": 709,
@@ -536,12 +490,35 @@
     },
     {
       "path": "static/images/search.png",
-      "type": "static",
       "where": "client",
+      "type": "static",
       "cacheable": false,
       "url": "/images/search.png",
       "size": 1421,
       "hash": "a321327cdf45c2a07f30c108e9a8f29ded706d59"
+    },
+    {
+      "path": "static/packages/bootstrap/img/glyphicons-halflings.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/packages/bootstrap/img/glyphicons-halflings.png",
+      "size": 12799,
+      "hash": "84f613631b07d4fe22acbab50e551c0fe04bd78b"
+    },
+    {
+      "path": "static/packages/bootstrap/img/glyphicons-halflings-white.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/packages/bootstrap/img/glyphicons-halflings-white.png",
+      "size": 8777,
+      "hash": "a25c4705320fd63c33790e666872910e702b9bf6"
+    },
+    {
+      "path": "app.html",
+      "where": "internal",
+      "hash": "668d91236b1fb2f5227ff309866bcc5ef3f4f0db"
     }
   ]
 }
