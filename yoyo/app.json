@@ -34,37 +34,26 @@
     "app/packages/mongo-livedata/remote_collection_driver.js",
     "app/packages/mongo-livedata/collection.js",
     "app/packages/startup/startup_server.js",
-    "app/packages/past/past.js",
-    "app/packages/accounts-urls/url_server.js",
-    "app/packages/accounts-base/accounts_common.js",
-    "app/packages/accounts-base/accounts_server.js",
-    "app/packages/srp/biginteger.js",
-    "app/packages/srp/sha256.js",
-    "app/packages/srp/srp.js",
-    "app/packages/email/email.js",
-    "app/packages/accounts-password/email_templates.js",
-    "app/packages/accounts-password/password_server.js",
-    "app/packages/accounts-password/password_common.js",
-    "app/server/server.coffee.js"
+    "app/packages/past/past.js"
   ],
   "manifest": [
     {
-      "path": "static_cacheable/78cbe73d361bdabf173807faef97ea0a61a250d6.js",
+      "path": "static_cacheable/0f781dcb6afcab6a0b023252c6620bafcd2acb6e.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/78cbe73d361bdabf173807faef97ea0a61a250d6.js",
-      "size": 571363,
-      "hash": "78cbe73d361bdabf173807faef97ea0a61a250d6"
+      "url": "/0f781dcb6afcab6a0b023252c6620bafcd2acb6e.js",
+      "size": 311880,
+      "hash": "0f781dcb6afcab6a0b023252c6620bafcd2acb6e"
     },
     {
-      "path": "static_cacheable/026430512edd1cee29f8233f790a60fd7d369366.css",
+      "path": "static_cacheable/46be4ebd09385e6c68362f5af1e82aadf649fa13.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/026430512edd1cee29f8233f790a60fd7d369366.css",
-      "size": 157927,
-      "hash": "026430512edd1cee29f8233f790a60fd7d369366"
+      "url": "/46be4ebd09385e6c68362f5af1e82aadf649fa13.css",
+      "size": 132270,
+      "hash": "46be4ebd09385e6c68362f5af1e82aadf649fa13"
     },
     {
       "path": "static/images/mainpage_03/._rabbit_head.png",
