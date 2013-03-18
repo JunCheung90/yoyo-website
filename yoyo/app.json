@@ -48,22 +48,22 @@
   ],
   "manifest": [
     {
-      "path": "static_cacheable/943c3df9b061b94cf82134280312bd657c7951a7.js",
+      "path": "static_cacheable/1ba9dd645a1e807fa5bc8e98b726353b7938f65f.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/943c3df9b061b94cf82134280312bd657c7951a7.js",
-      "size": 573885,
-      "hash": "943c3df9b061b94cf82134280312bd657c7951a7"
+      "url": "/1ba9dd645a1e807fa5bc8e98b726353b7938f65f.js",
+      "size": 574293,
+      "hash": "1ba9dd645a1e807fa5bc8e98b726353b7938f65f"
     },
     {
-      "path": "static_cacheable/2349233638c4b395281816bc726bb4ca4e6abb98.css",
+      "path": "static_cacheable/72dfe0c555d3ba59d61443b7741683abdced5fc4.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/2349233638c4b395281816bc726bb4ca4e6abb98.css",
-      "size": 158051,
-      "hash": "2349233638c4b395281816bc726bb4ca4e6abb98"
+      "url": "/72dfe0c555d3ba59d61443b7741683abdced5fc4.css",
+      "size": 158175,
+      "hash": "72dfe0c555d3ba59d61443b7741683abdced5fc4"
     },
     {
       "path": "static/images/mainpage_03/._rabbit_head.png",
@@ -264,6 +264,15 @@
       "hash": "ef5e3f701d59a219967b7f684135238b9ecc8e9b"
     },
     {
+      "path": "static/images/mainpage_01/download/right.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_01/download/right.png",
+      "size": 640,
+      "hash": "224a9cc44d34a821b62c799e3baab22bfb7ffb2d"
+    },
+    {
       "path": "static/images/mainpage_01/download/download.png",
       "where": "client",
       "type": "static",
@@ -305,8 +314,8 @@
       "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_02/name_card.png",
-      "size": 167887,
-      "hash": "49c1d2418f4cad456d24d32cd90db49b20dadcd9"
+      "size": 143432,
+      "hash": "1995da8d686764b1a656a528d7851e1537a44afe"
     },
     {
       "path": "static/images/mainpage_02/._phone.png",
@@ -471,6 +480,15 @@
       "hash": "2452430e8782abd83462c2a2a4ef2dbfbf2ca4e9"
     },
     {
+      "path": "static/images/mainpage_06/social_media_00.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_06/social_media_00.png",
+      "size": 130693,
+      "hash": "0009d79219f7486b8caa8a599a7379d56ba48458"
+    },
+    {
       "path": "static/images/background.jpg",
       "where": "client",
       "type": "static",
@@ -498,6 +516,15 @@
       "hash": "a321327cdf45c2a07f30c108e9a8f29ded706d59"
     },
     {
+      "path": "static/images/down .ico",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/down .ico",
+      "size": 709,
+      "hash": "1bdce4a9325bfb8b5a072a9129d81c2180bf00f9"
+    },
+    {
       "path": "static/packages/bootstrap/img/glyphicons-halflings.png",
       "where": "client",
       "type": "static",
@@ -518,7 +545,7 @@
     {
       "path": "app.html",
       "where": "internal",
-      "hash": "668d91236b1fb2f5227ff309866bcc5ef3f4f0db"
+      "hash": "3479c65990868efd4c3d16de36ef547c09c62895"
     }
   ]
 }
