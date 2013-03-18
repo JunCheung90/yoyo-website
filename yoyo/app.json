@@ -264,15 +264,6 @@
       "hash": "ef5e3f701d59a219967b7f684135238b9ecc8e9b"
     },
     {
-      "path": "static/images/mainpage_01/download/right.png",
-      "where": "client",
-      "type": "static",
-      "cacheable": false,
-      "url": "/images/mainpage_01/download/right.png",
-      "size": 640,
-      "hash": "224a9cc44d34a821b62c799e3baab22bfb7ffb2d"
-    },
-    {
       "path": "static/images/mainpage_01/download/download.png",
       "where": "client",
       "type": "static",
@@ -514,15 +505,6 @@
       "url": "/images/search.png",
       "size": 1421,
       "hash": "a321327cdf45c2a07f30c108e9a8f29ded706d59"
-    },
-    {
-      "path": "static/images/down .ico",
-      "where": "client",
-      "type": "static",
-      "cacheable": false,
-      "url": "/images/down .ico",
-      "size": 709,
-      "hash": "1bdce4a9325bfb8b5a072a9129d81c2180bf00f9"
     },
     {
       "path": "static/packages/bootstrap/img/glyphicons-halflings.png",
