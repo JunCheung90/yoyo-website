@@ -57,13 +57,13 @@
       "hash": "1ba9dd645a1e807fa5bc8e98b726353b7938f65f"
     },
     {
-      "path": "static_cacheable/72dfe0c555d3ba59d61443b7741683abdced5fc4.css",
+      "path": "static_cacheable/7ee621ef9ad48308391f47b56b8b212c13c8ab5b.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/72dfe0c555d3ba59d61443b7741683abdced5fc4.css",
-      "size": 158175,
-      "hash": "72dfe0c555d3ba59d61443b7741683abdced5fc4"
+      "url": "/7ee621ef9ad48308391f47b56b8b212c13c8ab5b.css",
+      "size": 158186,
+      "hash": "7ee621ef9ad48308391f47b56b8b212c13c8ab5b"
     },
     {
       "path": "static/images/mainpage_03/._rabbit_head.png",
@@ -527,7 +527,7 @@
     {
       "path": "app.html",
       "where": "internal",
-      "hash": "3479c65990868efd4c3d16de36ef547c09c62895"
+      "hash": "a878f4029ad9bcb5d976e250e846a17387400022"
     }
   ]
 }
