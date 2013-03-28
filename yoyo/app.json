@@ -48,22 +48,22 @@
   ],
   "manifest": [
     {
-      "path": "static_cacheable/f15b6d7eeda20f9c31c5f77b5cac448e6233a52b.js",
+      "path": "static_cacheable/84f8ed9790d19df275ab6e96e5827f15751c0987.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/f15b6d7eeda20f9c31c5f77b5cac448e6233a52b.js",
+      "url": "/84f8ed9790d19df275ab6e96e5827f15751c0987.js",
       "size": 575467,
-      "hash": "f15b6d7eeda20f9c31c5f77b5cac448e6233a52b"
+      "hash": "84f8ed9790d19df275ab6e96e5827f15751c0987"
     },
     {
-      "path": "static_cacheable/137fb497cdd7d17d22d9ec6f90f88cfd991157a7.css",
+      "path": "static_cacheable/b176935563e9cdd9273ffc56dc610a753d1c5f23.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/137fb497cdd7d17d22d9ec6f90f88cfd991157a7.css",
-      "size": 159378,
-      "hash": "137fb497cdd7d17d22d9ec6f90f88cfd991157a7"
+      "url": "/b176935563e9cdd9273ffc56dc610a753d1c5f23.css",
+      "size": 159443,
+      "hash": "b176935563e9cdd9273ffc56dc610a753d1c5f23"
     },
     {
       "path": "static/images/mainpage_03/shadow.png",
@@ -163,15 +163,6 @@
       "url": "/images/mainpage_01/download_button.png",
       "size": 7113,
       "hash": "9597fbd08a8317614154d2f3a92edc480c5720a6"
-    },
-    {
-      "path": "static/images/mainpage_01/search_01.png",
-      "where": "client",
-      "type": "static",
-      "cacheable": false,
-      "url": "/images/mainpage_01/search_01.png",
-      "size": 2125,
-      "hash": "1b56c9b396e5595537651b3a0c4758252e804a2c"
     },
     {
       "path": "static/images/mainpage_01/friends.png",
@@ -410,7 +401,7 @@
     {
       "path": "app.html",
       "where": "internal",
-      "hash": "e91ce533a90f1274faf31af8c1f52e6801038d11"
+      "hash": "52403a1848631b25125018d2ee71cabb70f53231"
     }
   ]
 }
