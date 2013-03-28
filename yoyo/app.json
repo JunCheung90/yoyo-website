@@ -44,26 +44,29 @@
     "app/packages/accounts-password/password_server.js",
     "app/packages/accounts-password/password_common.js",
     "app/packages/appcache/appcache-server.js",
+    "app/packages/http/httpcall_common.js",
+    "app/packages/http/httpcall_server.js",
+    "app/server/ajaxResponder.coffee.js",
     "app/static.coffee.js"
   ],
   "manifest": [
     {
-      "path": "static_cacheable/84f8ed9790d19df275ab6e96e5827f15751c0987.js",
+      "path": "static_cacheable/cfb71853ddfa02ea493294f1f022adb7b241b361.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/84f8ed9790d19df275ab6e96e5827f15751c0987.js",
-      "size": 575467,
-      "hash": "84f8ed9790d19df275ab6e96e5827f15751c0987"
+      "url": "/cfb71853ddfa02ea493294f1f022adb7b241b361.js",
+      "size": 579291,
+      "hash": "cfb71853ddfa02ea493294f1f022adb7b241b361"
     },
     {
-      "path": "static_cacheable/b176935563e9cdd9273ffc56dc610a753d1c5f23.css",
+      "path": "static_cacheable/fe0fce1b6d2c2ae0b646561072ffd14468830e96.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/b176935563e9cdd9273ffc56dc610a753d1c5f23.css",
-      "size": 159443,
-      "hash": "b176935563e9cdd9273ffc56dc610a753d1c5f23"
+      "url": "/fe0fce1b6d2c2ae0b646561072ffd14468830e96.css",
+      "size": 160615,
+      "hash": "fe0fce1b6d2c2ae0b646561072ffd14468830e96"
     },
     {
       "path": "static/images/mainpage_03/shadow.png",
@@ -401,7 +404,7 @@
     {
       "path": "app.html",
       "where": "internal",
-      "hash": "52403a1848631b25125018d2ee71cabb70f53231"
+      "hash": "a0039c80effc576397f06898fd143db0b6426b23"
     }
   ]
 }
