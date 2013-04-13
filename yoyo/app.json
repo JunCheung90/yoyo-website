@@ -32,6 +32,7 @@
     "app/packages/mongo-livedata/remote_collection_driver.js",
     "app/packages/mongo-livedata/collection.js",
     "app/packages/startup/startup_server.js",
+    "app/packages/handlebars/parse.js",
     "app/packages/past/past.js",
     "app/packages/accounts-urls/url_server.js",
     "app/packages/accounts-base/accounts_common.js",
@@ -51,22 +52,22 @@
   ],
   "manifest": [
     {
-      "path": "static_cacheable/cfb71853ddfa02ea493294f1f022adb7b241b361.js",
+      "path": "static_cacheable/aef7f15cb6a5c822348d2328c20108ce848a7fce.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/cfb71853ddfa02ea493294f1f022adb7b241b361.js",
-      "size": 579291,
-      "hash": "cfb71853ddfa02ea493294f1f022adb7b241b361"
+      "url": "/aef7f15cb6a5c822348d2328c20108ce848a7fce.js",
+      "size": 580080,
+      "hash": "aef7f15cb6a5c822348d2328c20108ce848a7fce"
     },
     {
-      "path": "static_cacheable/fe0fce1b6d2c2ae0b646561072ffd14468830e96.css",
+      "path": "static_cacheable/2275792f2bb160a8d9994581c18c027263319f64.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/fe0fce1b6d2c2ae0b646561072ffd14468830e96.css",
-      "size": 160615,
-      "hash": "fe0fce1b6d2c2ae0b646561072ffd14468830e96"
+      "url": "/2275792f2bb160a8d9994581c18c027263319f64.css",
+      "size": 160608,
+      "hash": "2275792f2bb160a8d9994581c18c027263319f64"
     },
     {
       "path": "static/images/mainpage_03/shadow.png",
@@ -404,7 +405,8 @@
     {
       "path": "app.html",
       "where": "internal",
-      "hash": "a0039c80effc576397f06898fd143db0b6426b23"
+      "hash": "faa29c9b2097a1a3e03d1fd6416a98a03132aea0"
     }
-  ]
+  ],
+  "release": "0.6.0"
 }
