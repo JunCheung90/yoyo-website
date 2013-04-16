@@ -52,22 +52,22 @@
   ],
   "manifest": [
     {
-      "path": "static_cacheable/aef7f15cb6a5c822348d2328c20108ce848a7fce.js",
+      "path": "static_cacheable/81dfe477281eaa83e7651b7e3beb71d9e9682c9c.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/aef7f15cb6a5c822348d2328c20108ce848a7fce.js",
-      "size": 580080,
-      "hash": "aef7f15cb6a5c822348d2328c20108ce848a7fce"
+      "url": "/81dfe477281eaa83e7651b7e3beb71d9e9682c9c.js",
+      "size": 584947,
+      "hash": "81dfe477281eaa83e7651b7e3beb71d9e9682c9c"
     },
     {
-      "path": "static_cacheable/2275792f2bb160a8d9994581c18c027263319f64.css",
+      "path": "static_cacheable/2771a7fd1163d671e84156173622d4b62042de83.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/2275792f2bb160a8d9994581c18c027263319f64.css",
-      "size": 160608,
-      "hash": "2275792f2bb160a8d9994581c18c027263319f64"
+      "url": "/2771a7fd1163d671e84156173622d4b62042de83.css",
+      "size": 161163,
+      "hash": "2771a7fd1163d671e84156173622d4b62042de83"
     },
     {
       "path": "static/images/mainpage_03/shadow.png",
@@ -259,6 +259,15 @@
       "hash": "e8b0c880a4134236aa4be0d198df12a32153c2a9"
     },
     {
+      "path": "static/images/Button_background.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/Button_background.png",
+      "size": 218113,
+      "hash": "95f54afe84b69b1bda5a7b8bab98955fc623ca33"
+    },
+    {
       "path": "static/images/mainpage_02/name_card.png",
       "where": "client",
       "type": "static",
@@ -318,8 +327,8 @@
       "type": "static",
       "cacheable": false,
       "url": "/images/mainpage_04/type.png",
-      "size": 6844,
-      "hash": "04bb2d602eb6c9740e08ca124edfa1334875ab6f"
+      "size": 7517,
+      "hash": "95fc2907e7e8675f37cd5b9842dc8e62d3e31dbf"
     },
     {
       "path": "static/images/mainpage_04/girlfriend.png",
@@ -329,6 +338,15 @@
       "url": "/images/mainpage_04/girlfriend.png",
       "size": 36531,
       "hash": "6af80b9f1eb2c19700758941809d4bef217a8ecf"
+    },
+    {
+      "path": "static/images/grass_background.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/grass_background.png",
+      "size": 2766703,
+      "hash": "0cfa3a7b77cf0195b791e754591236dd8c15eb37"
     },
     {
       "path": "static/images/dot.png",
@@ -405,7 +423,7 @@
     {
       "path": "app.html",
       "where": "internal",
-      "hash": "faa29c9b2097a1a3e03d1fd6416a98a03132aea0"
+      "hash": "0be115aed5007215fcc025b5f80f83d1fbd74fd1"
     }
   ],
   "release": "0.6.0"
