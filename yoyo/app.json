@@ -52,22 +52,22 @@
   ],
   "manifest": [
     {
-      "path": "static_cacheable/81dfe477281eaa83e7651b7e3beb71d9e9682c9c.js",
+      "path": "static_cacheable/93f344afb5541dd68412e72e8e7f0b1b73850ef1.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/81dfe477281eaa83e7651b7e3beb71d9e9682c9c.js",
-      "size": 584947,
-      "hash": "81dfe477281eaa83e7651b7e3beb71d9e9682c9c"
+      "url": "/93f344afb5541dd68412e72e8e7f0b1b73850ef1.js",
+      "size": 584943,
+      "hash": "93f344afb5541dd68412e72e8e7f0b1b73850ef1"
     },
     {
-      "path": "static_cacheable/2771a7fd1163d671e84156173622d4b62042de83.css",
+      "path": "static_cacheable/b270834fc69ac56579bb55479fa583ea72e38e8d.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/2771a7fd1163d671e84156173622d4b62042de83.css",
-      "size": 161163,
-      "hash": "2771a7fd1163d671e84156173622d4b62042de83"
+      "url": "/b270834fc69ac56579bb55479fa583ea72e38e8d.css",
+      "size": 161204,
+      "hash": "b270834fc69ac56579bb55479fa583ea72e38e8d"
     },
     {
       "path": "static/images/mainpage_03/shadow.png",
@@ -259,15 +259,6 @@
       "hash": "e8b0c880a4134236aa4be0d198df12a32153c2a9"
     },
     {
-      "path": "static/images/Button_background.png",
-      "where": "client",
-      "type": "static",
-      "cacheable": false,
-      "url": "/images/Button_background.png",
-      "size": 218113,
-      "hash": "95f54afe84b69b1bda5a7b8bab98955fc623ca33"
-    },
-    {
       "path": "static/images/mainpage_02/name_card.png",
       "where": "client",
       "type": "static",
@@ -338,15 +329,6 @@
       "url": "/images/mainpage_04/girlfriend.png",
       "size": 36531,
       "hash": "6af80b9f1eb2c19700758941809d4bef217a8ecf"
-    },
-    {
-      "path": "static/images/grass_background.png",
-      "where": "client",
-      "type": "static",
-      "cacheable": false,
-      "url": "/images/grass_background.png",
-      "size": 2766703,
-      "hash": "0cfa3a7b77cf0195b791e754591236dd8c15eb37"
     },
     {
       "path": "static/images/dot.png",
@@ -423,7 +405,7 @@
     {
       "path": "app.html",
       "where": "internal",
-      "hash": "0be115aed5007215fcc025b5f80f83d1fbd74fd1"
+      "hash": "b52f03e4fd775ae76f5181e668bf02d3aa6fa9ba"
     }
   ],
   "release": "0.6.0"
