@@ -1,0 +1,412 @@
+{
+  "load": [
+    "app/packages/underscore/underscore.js",
+    "app/packages/meteor/server_environment.js",
+    "app/packages/meteor/helpers.js",
+    "app/packages/meteor/timers.js",
+    "app/packages/meteor/fiber_helpers.js",
+    "app/packages/meteor/dynamics_nodejs.js",
+    "app/packages/meteor/url_server.js",
+    "app/packages/meteor/url_common.js",
+    "app/packages/deps/deps.js",
+    "app/packages/logging/logging.js",
+    "app/packages/random/random.js",
+    "app/packages/json/json2.js",
+    "app/packages/routepolicy/routepolicy.js",
+    "app/packages/stream/stream_server.js",
+    "app/packages/ejson/ejson.js",
+    "app/packages/ejson/base64.js",
+    "app/packages/ordered-dict/ordered_dict.js",
+    "app/packages/minimongo/minimongo.js",
+    "app/packages/minimongo/selector.js",
+    "app/packages/minimongo/modify.js",
+    "app/packages/minimongo/diff.js",
+    "app/packages/minimongo/objectid.js",
+    "app/packages/livedata/writefence.js",
+    "app/packages/livedata/crossbar.js",
+    "app/packages/livedata/livedata_common.js",
+    "app/packages/livedata/livedata_server.js",
+    "app/packages/livedata/server_convenience.js",
+    "app/packages/mongo-livedata/mongo_driver.js",
+    "app/packages/mongo-livedata/local_collection_driver.js",
+    "app/packages/mongo-livedata/remote_collection_driver.js",
+    "app/packages/mongo-livedata/collection.js",
+    "app/packages/startup/startup_server.js",
+    "app/packages/handlebars/parse.js",
+    "app/packages/past/past.js",
+    "app/packages/accounts-urls/url_server.js",
+    "app/packages/accounts-base/accounts_common.js",
+    "app/packages/accounts-base/accounts_server.js",
+    "app/packages/srp/biginteger.js",
+    "app/packages/srp/sha256.js",
+    "app/packages/srp/srp.js",
+    "app/packages/email/email.js",
+    "app/packages/accounts-password/email_templates.js",
+    "app/packages/accounts-password/password_server.js",
+    "app/packages/accounts-password/password_common.js",
+    "app/packages/appcache/appcache-server.js",
+    "app/packages/http/httpcall_common.js",
+    "app/packages/http/httpcall_server.js",
+    "app/server/ajaxResponder.coffee.js",
+    "app/static.coffee.js"
+  ],
+  "manifest": [
+    {
+      "path": "static_cacheable/97bae4247180fef1cac316239ad91579224d313f.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/97bae4247180fef1cac316239ad91579224d313f.js",
+      "size": 584929,
+      "hash": "97bae4247180fef1cac316239ad91579224d313f"
+    },
+    {
+      "path": "static_cacheable/b270834fc69ac56579bb55479fa583ea72e38e8d.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/b270834fc69ac56579bb55479fa583ea72e38e8d.css",
+      "size": 161204,
+      "hash": "b270834fc69ac56579bb55479fa583ea72e38e8d"
+    },
+    {
+      "path": "static/images/mainpage_03/shadow.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_03/shadow.png",
+      "size": 1337,
+      "hash": "c254caafc0d17c5e255aadbfad78430a8669cebb"
+    },
+    {
+      "path": "static/images/mainpage_03/rabbit.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_03/rabbit.png",
+      "size": 453845,
+      "hash": "e9ef136bd0599f5f874ae2e7560660e1eb77672f"
+    },
+    {
+      "path": "static/images/mainpage_03/rabbit_head.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_03/rabbit_head.png",
+      "size": 8226,
+      "hash": "b08ca4bed373cea1c2665e09bcc91fd5ffaae93c"
+    },
+    {
+      "path": "static/images/mainpage_05/shadow.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_05/shadow.png",
+      "size": 1337,
+      "hash": "c254caafc0d17c5e255aadbfad78430a8669cebb"
+    },
+    {
+      "path": "static/images/mainpage_05/callout.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_05/callout.png",
+      "size": 338116,
+      "hash": "ebfdaf5f2c56f93eeea161e5488bfbccbea86a52"
+    },
+    {
+      "path": "static/images/mainpage_05/type.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_05/type.png",
+      "size": 6098,
+      "hash": "98d92ff853acac6978d4ac371c4f7ecea0087ae2"
+    },
+    {
+      "path": "static/images/mainpage_01/search_02.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_01/search_02.png",
+      "size": 1644,
+      "hash": "bf3c2dfd58a616790f36b866992ff4985860d3da"
+    },
+    {
+      "path": "static/images/mainpage_01/logo.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_01/logo.png",
+      "size": 4075,
+      "hash": "13e4500f2adb8ede8f3b3e8447c52eea6e0c3172"
+    },
+    {
+      "path": "static/images/mainpage_01/aboutus/logo_icon.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_01/aboutus/logo_icon.png",
+      "size": 6550,
+      "hash": "85aa2a6fde0419347a4e5627c072cc3082f41e6e"
+    },
+    {
+      "path": "static/images/mainpage_01/aboutus/location_icon.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_01/aboutus/location_icon.png",
+      "size": 1548,
+      "hash": "8f7dab64740a62ae1d4fd4558d8d9016e33a8350"
+    },
+    {
+      "path": "static/images/mainpage_01/download_button.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_01/download_button.png",
+      "size": 7113,
+      "hash": "9597fbd08a8317614154d2f3a92edc480c5720a6"
+    },
+    {
+      "path": "static/images/mainpage_01/friends.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_01/friends.png",
+      "size": 224048,
+      "hash": "775fc29fbf47ea1cffd911cc956ce08bf4efff6d"
+    },
+    {
+      "path": "static/images/mainpage_01/bobi_head.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_01/bobi_head.png",
+      "size": 21630,
+      "hash": "1a53ade2bb14eec3b5c71e9955fb2186ac13deeb"
+    },
+    {
+      "path": "static/images/mainpage_01/download_button_down.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_01/download_button_down.png",
+      "size": 6003,
+      "hash": "17ec74e8d1cf23281490638907e7d0cc7208a2eb"
+    },
+    {
+      "path": "static/images/mainpage_01/download/iphone_down.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_01/download/iphone_down.png",
+      "size": 3757,
+      "hash": "3f20b2f0a37b7ead075c084d1d70f1a5764c98a7"
+    },
+    {
+      "path": "static/images/mainpage_01/download/Android_down.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_01/download/Android_down.png",
+      "size": 3990,
+      "hash": "ff22716b7e52ce1298d98f6d81234f2358faefc3"
+    },
+    {
+      "path": "static/images/mainpage_01/download/Android.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_01/download/Android.png",
+      "size": 4226,
+      "hash": "4a4fcc02e702a330c25c865202acfd732d42e68a"
+    },
+    {
+      "path": "static/images/mainpage_01/download/windows_down.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_01/download/windows_down.png",
+      "size": 4437,
+      "hash": "59eab354a0338f447c087211e8de3d1385b70f53"
+    },
+    {
+      "path": "static/images/mainpage_01/download/download.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_01/download/download.png",
+      "size": 111080,
+      "hash": "faaf6926ac0c2bd3c026c683ae591946d43fa8f9"
+    },
+    {
+      "path": "static/images/mainpage_01/download/windows.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_01/download/windows.png",
+      "size": 4689,
+      "hash": "25d08f39c11450a7e6d52b86acd97b9024851d42"
+    },
+    {
+      "path": "static/images/mainpage_01/download/iphone.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_01/download/iphone.png",
+      "size": 4056,
+      "hash": "e8b0c880a4134236aa4be0d198df12a32153c2a9"
+    },
+    {
+      "path": "static/images/mainpage_02/name_card.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_02/name_card.png",
+      "size": 105649,
+      "hash": "1b87d42c0b582d377e7ff0bc4c2618a3e2ed7dde"
+    },
+    {
+      "path": "static/images/mainpage_02/shadow.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_02/shadow.png",
+      "size": 1337,
+      "hash": "c254caafc0d17c5e255aadbfad78430a8669cebb"
+    },
+    {
+      "path": "static/images/mainpage_02/phone.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_02/phone.png",
+      "size": 397515,
+      "hash": "374d189ecae21f85dab22bf062d30474f76d2d4d"
+    },
+    {
+      "path": "static/images/up.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/up.png",
+      "size": 1698,
+      "hash": "e7488115470f49ebd5681f92ca60b9a9ed293e94"
+    },
+    {
+      "path": "static/images/mainpage_04/shadow.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_04/shadow.png",
+      "size": 1337,
+      "hash": "c254caafc0d17c5e255aadbfad78430a8669cebb"
+    },
+    {
+      "path": "static/images/mainpage_04/people.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_04/people.png",
+      "size": 180176,
+      "hash": "031a45428e32566bec8e55261492f0ee8435a25d"
+    },
+    {
+      "path": "static/images/mainpage_04/type.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_04/type.png",
+      "size": 7517,
+      "hash": "95fc2907e7e8675f37cd5b9842dc8e62d3e31dbf"
+    },
+    {
+      "path": "static/images/mainpage_04/girlfriend.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_04/girlfriend.png",
+      "size": 36531,
+      "hash": "6af80b9f1eb2c19700758941809d4bef217a8ecf"
+    },
+    {
+      "path": "static/images/dot.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/dot.png",
+      "size": 1188,
+      "hash": "86066f537bf3086e09c1d9b8a131b086bcc98608"
+    },
+    {
+      "path": "static/images/mainpage_06/shadow.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_06/shadow.png",
+      "size": 1337,
+      "hash": "c254caafc0d17c5e255aadbfad78430a8669cebb"
+    },
+    {
+      "path": "static/images/mainpage_06/weibo.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_06/weibo.png",
+      "size": 19055,
+      "hash": "1336bc9d48cef5f84bb53787d7bda2df5b0c09be"
+    },
+    {
+      "path": "static/images/mainpage_06/social_media.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/mainpage_06/social_media.png",
+      "size": 149789,
+      "hash": "1861dddce7b2e844c03898b8b4b0b4c75e5a541a"
+    },
+    {
+      "path": "static/images/background.jpg",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/background.jpg",
+      "size": 180588,
+      "hash": "e0486ab27118b2dc2bc53c33931a275221bd520b"
+    },
+    {
+      "path": "static/images/down.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/images/down.png",
+      "size": 709,
+      "hash": "1bdce4a9325bfb8b5a072a9129d81c2180bf00f9"
+    },
+    {
+      "path": "static/packages/bootstrap/img/glyphicons-halflings.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/packages/bootstrap/img/glyphicons-halflings.png",
+      "size": 12799,
+      "hash": "84f613631b07d4fe22acbab50e551c0fe04bd78b"
+    },
+    {
+      "path": "static/packages/bootstrap/img/glyphicons-halflings-white.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/packages/bootstrap/img/glyphicons-halflings-white.png",
+      "size": 8777,
+      "hash": "a25c4705320fd63c33790e666872910e702b9bf6"
+    },
+    {
+      "path": "app.html",
+      "where": "internal",
+      "hash": "7835c0b676718ff8e53510666db72a314ba07714"
+    }
+  ],
+  "release": "0.6.0"
+}
